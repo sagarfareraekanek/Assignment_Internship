@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    background-color: gray;
+    font-family: "Lucida Console";
+}
+
+.box {
+    position: fixed;
+    top: 30%;
+    left: 50% ;
+    margin-left: -250px;
+    justify-content: center;
+    background-color: #c7c7c7;
+    text-align: center;
+    padding: 30px;
+    width: 500px;
+
+}
+button {
+    color: white;
+    background-color: #57c3c3;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+#printQuote{
+    margin-bottom: 10px;
+}
+#printQuote::before{
+    content:"\201c";
+    font-size:250%; 
+}
+
+#printAuthor {
+    color: #57c3c3;
+    text-align: end;
+}
